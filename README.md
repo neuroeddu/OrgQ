@@ -13,3 +13,10 @@ You will be asked to select your input folder. This will contain images of organ
 The results will be a csv file with data summarized by image.
 
 The macro requires confocal images with file_name_CH00, CH01, etc as well as a merge image.  The prefix must match between each file name and spaces are not accepted. 
+
+# useage 
+
+1. Install Fiji
+2. Open Fiji and run the python script by selecting to run a macro.
+
+You many not have matching file name formats for channel identification - you must edit the script inside the python file to match your file names. 
